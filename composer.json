@@ -1,0 +1,16 @@
+{
+    "name": "tchen/quest-install-challenge",
+    "autoload": {
+        "psr-4": {
+            "Tchen\\QuestInstallChallenge\\": "src/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TchengSG",
+            "email": "tcheng.siong@outlook.com"
+        }
+    ],
+    "require": {}
+}
