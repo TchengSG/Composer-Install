@@ -1,3 +1,7 @@
 <?php
 
-require_once 'autoload.php';
+require "../vendor/autoload.php";
+
+$greeting = new App\Wcs\Hello;
+
+echo 'Greetings! ' .$greeting->talk();
